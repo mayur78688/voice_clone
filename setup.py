@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'your_script_name = your_package.module:main_function',
+            'your_script_name = __init__',
         ],
     },
     author='mayur',
